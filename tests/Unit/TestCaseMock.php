@@ -34,7 +34,7 @@ use PHPUnit\Framework\TestCase;
 class TestCaseMock extends TestCase
 {
     protected function createMockClient($jsonFile, $httpStatus, $errno = null, $environment = Environment::TEST)
-    {
+    {m her
         $client = new Client();
         $client->setApplicationName("My Test Application");
         $client->setEnvironment($environment);
